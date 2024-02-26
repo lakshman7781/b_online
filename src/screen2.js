@@ -11,12 +11,20 @@ const Screen2 = () => {
       <FaAngleLeft className="icon1" onClick={() => navigate("/screen1")} />
       </div>
       <div style={Styles.header1} className="header1">
-        <a href="https://wa.me/9949961421" style={Styles.button1} className="button">
+        <button 
+          style={Styles.button1} 
+          className="button" 
+          onClick={() => window.location.href='https://wa.me/9949961421'}
+        >
           WhatsApp Chat
-        </a>
-        <a href="tel:9949961421" style={Styles.button1} className="button">
+        </button>
+        <button 
+          style={Styles.button1} 
+          className="button" 
+          onClick={() => window.location.href='tel:9949961421'}
+        >
           Call
-        </a>
+        </button>
       </div>
       <div style={Styles.div2} className="div2">
         <p>spotlight</p>
