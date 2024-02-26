@@ -1,10 +1,14 @@
 import React from "react";
 import Styles from "./screen2css";
+import { FaAngleLeft } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
+
 const Screen2 = () => {
+  const navigate = useNavigate();
   return (
     <div style={Styles.container} className="container">
       <div style={Styles.navbar} className="navbar">
-        <p>meiugivg</p>
+      <FaAngleLeft className="icon1" onClick={() => navigate("/screen1")} />
       </div>
       <div style={Styles.header1} className="header1">
         <button style={Styles.button1} className="button">

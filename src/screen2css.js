@@ -6,7 +6,7 @@ const Styles = {
      marginLeft: "10%",
      marginRight: "10%",
      marginBottom: "10px",
-     backgroundColor: "#ad1111",
+     backgroundColor: "#5ae38e",
     },
     button1:{
      height: "30px",
@@ -27,7 +27,7 @@ const Styles = {
     div2:{
      display: "flex",
      flexDirection: "column",
-     backgroundColor: "#ad1111",
+     backgroundColor: "#5ae38e",
      margin:"10%",
      height: "100%",
     },

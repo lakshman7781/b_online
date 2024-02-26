@@ -6,32 +6,33 @@ const Styles = {
   navbar: {
     display: "flex",
     flexDirection: "row",
-    justifyContent: "space-between",
+    // justifyContent: "space-between",
     alignItems: "center",
-    padding: "2%",
-    margin: "2%",
+    padding: "0%",
+    margin: "0%",
   },
   nav2: {
     marginleft: "0%",
     display: "flex",
-    flexDirection: "row",
-    justifyContent: "space-between",
+    flexDirection: "column",
+    // justifyContent: "space-between",
     alignItems: "center",
-    backgroundColor: "black",
+    // backgroundColor: "black",
   },
   nav21: {
     margin: "0%",
     padding: "0%",
     display: "flex",
-    flexDirection: "column",
+    flexDirection: "row",
+    justifyContent: "space-between",
     // CSS properties here
   },
   div3: {
-    margintop: "20px",
+    margintop: "30px",
     display: "flex",
     justifycontent: "space-between",
     width: "100%",
-    height: "50px",
+    height: "30px",
     flexDirection: "row",
   },
   leftsection: {
@@ -65,7 +66,10 @@ const Styles = {
     display: "flex",
     // justifyContent: "flex-start",
     margin: "4%",
+    flexDirection: "row",
     justifyContent: "space-between",
+    borderBottom: "1px solid black",
+
    
   },
   image1: {
@@ -77,11 +81,14 @@ const Styles = {
 
   },
   image2: {
-        marginleft: "0%",
+       
         padding: "0%",
-        margin: "0%",
-        marginleft: "900px",
-  
+
+
     },
+  img1: {
+    width: "100px",
+    height: "100px",
+  },
 };
 export default Styles;
