@@ -5,6 +5,10 @@ import { useNavigate } from "react-router-dom";
 
 const Screen2 = () => {
   const navigate = useNavigate();
+  const externallink = (url) => {
+    window.open(url, "_system");
+  }
+
   return (
     <div style={Styles.container} className="container">
       <div style={Styles.navbar} className="navbar">
@@ -14,7 +18,7 @@ const Screen2 = () => {
         <button 
           style={Styles.button1} 
           className="button" 
-          onClick={() => window.location.href='https://wa.me/9949961421'}
+          onClick={() => externallink('https://wa.me/919949961421')}
         >
           WhatsApp Chat
         </button>
