@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 const Screen2 = () => {
   const navigate = useNavigate();
   const externallink = (url) => {
-    window.open(url, "_system");
+    window.open(url, "_blank");
   }
 
   return (
